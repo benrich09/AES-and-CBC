@@ -9,7 +9,6 @@ import os
 INPUT_IMAGE = "input.png"
 ECB_OUTPUT = "ecb_encrypted.png"
 CBC_OUTPUT = "cbc_encrypted.png"
-# =========================================================
 
 # Step 1: Load and prepare image
 img = Image.open(INPUT_IMAGE).convert("RGB")
